@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ccccb3"
+    tools:context=".Testing"
+    tools:layout_editor_absoluteY="25dp">
+
+
+    <EditText
+        android:id="@+id/zbt"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="57dp"
+        android:hint="@string/z_button"
+        android:inputType=""
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ZBut2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ZBut2"
+        app:layout_constraintTop_toTopOf="@+id/ZBut2" />
+
+    <EditText
+        android:id="@+id/cbt"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="57dp"
+        android:hint="@string/c_button"
+        android:inputType=""
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/CBut2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/CBut2"
+        app:layout_constraintTop_toTopOf="@+id/CBut2" />
+
+    <EditText
+        android:id="@+id/xax"
+        android:layout_width="158dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="28dp"
+        android:hint="@string/enter_x_axis_here"
+        android:inputType=""
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/yax"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/XAxist"
+        app:layout_constraintTop_toBottomOf="@+id/y" />
+
+    <EditText
+        android:id="@+id/yax"
+        android:layout_width="158dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="20dp"
+        android:hint="@string/enter_y_axis_here"
+        android:inputType=""
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/CBut2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/YAxis2t"
+        app:layout_constraintTop_toBottomOf="@+id/xax" />
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="82dp"
+        android:layout_marginBottom="28dp"
+        android:text="@string/send_data"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ZBut2" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="158dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Enter_Name_Here"
+        android:inputType=""
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/x"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/namet"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <EditText
+        android:id="@+id/x"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="27dp"
+        android:hint="@string/enter_x_here"
+        android:inputType=""
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/y"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/xt"
+        app:layout_constraintTop_toBottomOf="@+id/name" />
+
+    <EditText
+        android:id="@+id/y"
+        android:layout_width="125dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="27dp"
+        android:hint="@string/enter_y_here"
+        android:inputType=""
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/xax"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/yt"
+        app:layout_constraintTop_toBottomOf="@+id/x" />
+
+    <TextView
+        android:id="@+id/CBut2"
+        android:layout_width="125dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginEnd="86dp"
+        android:layout_marginBottom="19dp"
+        android:text="C Button Value:"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/ZBut2"
+        app:layout_constraintEnd_toStartOf="@+id/cbt"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yax" />
+
+    <TextView
+        android:id="@+id/ZBut2"
+        android:layout_width="125dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginEnd="82dp"
+        android:layout_marginBottom="32dp"
+        android:text="Z Button Value:"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnSend"
+        app:layout_constraintEnd_toStartOf="@+id/zbt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CBut2" />
+
+    <TextView
+        android:id="@+id/YAxis2t"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginBottom="225dp"
+        android:text="Y Axis Value:"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/yax"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/XAxist" />
+
+    <TextView
+        android:id="@+id/XAxist"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginBottom="28dp"
+        android:text="X Axis Value:"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/YAxis2t"
+        app:layout_constraintEnd_toStartOf="@+id/xax"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yt" />
+
+    <TextView
+        android:id="@+id/yt"
+        android:layout_width="70dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginEnd="141dp"
+        android:layout_marginBottom="32dp"
+        android:text="Y Value:"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/XAxist"
+        app:layout_constraintEnd_toStartOf="@+id/y"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/xt" />
+
+    <TextView
+        android:id="@+id/xt"
+        android:layout_width="70dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginEnd="137dp"
+        android:layout_marginBottom="20dp"
+        android:text="X Value:"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/yt"
+        app:layout_constraintEnd_toStartOf="@+id/x"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/namet" />
+
+    <TextView
+        android:id="@+id/namet"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="117dp"
+        android:layout_marginBottom="16dp"
+        android:text="File Name:"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/xt"
+        app:layout_constraintEnd_toStartOf="@+id/name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="0dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="30dp"
+        android:onClick="clickResults"
+        android:text="@string/results"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnSend"
+        app:layout_constraintTop_toBottomOf="@+id/zbt" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="123dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="7dp"
+        android:text="TESTING"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

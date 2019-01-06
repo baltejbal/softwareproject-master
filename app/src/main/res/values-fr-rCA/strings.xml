@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calibrage Wii</string>
+    <string name="login">"S'identifier "</string>
+    <string name="title_activity_home">Accueil</string>
+    <string name="button">Retour</string>
+    <string name="sbutton">Réglages</string>
+    <string name="signup">"S'inscrire "</string>
+    <string name="title_activity_sign_up">"S'inscrire "</string>
+    <string name="title_activity_settings">"Réglages "</string>
+    <string name="title_activity_about_us">"À propos de nous "</string>
+    <string name="about_us">"À propos de nous "</string>
+    <string name="humber">humber</string>
+    <string name="description">"Nous allons remplir les informations sur nous ici "</string>
+    <string name="nunchuk">"Wii Nunchuk "</string>
+    <string name="projectdescrip">"C'est ici que nous allons renseigner les informations sur le projet. "</string>
+    <string name="calibrate">Étalonner</string>
+    <string name="wii">wii</string>
+    <string name="test">"tester "</string>
+    <string name="opening_image">"ouverture "</string>
+    <string name="button4">S\'inscrire</string>
+    <string name="button5">Retour</string>
+    <string name="husername">"Adresse électronique "</string>
+    <string name="email_address">"Adresse électronique "</string>
+    <string name="sign_in">"Se connecter "</string>
+    <string name="sign_out">Déconnexion</string>
+    <string name="sign_up">"S'inscrire "</string>
+    <string name="password">"Mot de passe "</string>
+    <string name="last_name">"Nom de famille "</string>
+    <string name="first_name">"Prénom "</string>
+    <string name="send_data">"Envoyer des données "</string>
+    <string name="enter_name_here">"entrez le nom ici"</string>
+    <string name="enter_y_here">"Entrez Y ici "</string>
+    <string name="enter_x_here">"Entrez X ici "</string>
+    <string name="title_activity_results">Résultats</string>
+    <string name="results">Résultats</string>
+    <string name="enter_x_axis_here">"Entrez l'axe des X ici "</string>
+    <string name="enter_y_axis_here">"Entrez l'axe des Y ici "</string>
+    <string name="c_button">"Bouton C "</string>
+    <string name="z_button">"Bouton Z "</string>
+    <string name="history">history</string>
+    <string name="remember_to_connect_your_device">"N'oubliez pas de connecter votre appareil "</string>
+    <string name="action_settings">réglages</string>
+
+</resources>

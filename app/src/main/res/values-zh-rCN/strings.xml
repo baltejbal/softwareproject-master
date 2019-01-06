@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wii校準</string>
+    <string name="login">"登錄 "</string>
+    <string name="title_activity_home">"家 "</string>
+    <string name="button">"背部 "</string>
+    <string name="sbutton">設置</string>
+    <string name="signup">註冊</string>
+    <string name="title_activity_sign_up">註冊</string>
+    <string name="title_activity_settings">"設置 "</string>
+    <string name="title_activity_about_us">"關於我們 "</string>
+    <string name="about_us">"關於我們 "</string>
+    <string name="humber">亨伯</string>
+    <string name="description">" 我們會在這裡填寫關於我們的信息"</string>
+    <string name="nunchuk">"Wii Nunchuk "</string>
+    <string name="projectdescrip">" 這是我們將填寫有關該項目的信息的地方"</string>
+    <string name="calibrate">"校準 "</string>
+    <string name="wii">"Wii遊戲機 "</string>
+    <string name="test">測試</string>
+    <string name="opening_image">開盤</string>
+    <string name="button4">"註冊 "</string>
+    <string name="button5">背部</string>
+    <string name="husername">"電子郵件地址 "</string>
+    <string name="email_address">"電子郵件地址 "</string>
+    <string name="sign_in">" 登入"</string>
+    <string name="sign_up">" 註冊"</string>
+    <string name="password">" 密碼"</string>
+    <string name="last_name">" 姓"</string>
+    <string name="first_name">" 名字"</string>
+    <string name="send_data">發送數據</string>
+    <string name="enter_name_here">"在這裡輸入名字"</string>
+    <string name="enter_y_here">"在這裡輸入Y. "</string>
+    <string name="enter_x_here">"在這裡輸入X. "</string>
+    <string name="title_activity_results">"結果 "</string>
+    <string name="results">"結果 "</string>
+    <string name="enter_x_axis_here">"在此輸入X軸 "</string>
+    <string name="enter_y_axis_here">" 在此處輸入Y軸"</string>
+    <string name="c_button">"C按鈕 "</string>
+    <string name="z_button">" Z按鈕"</string>
+    <string name="history">歷史</string>
+    <string name="remember_to_connect_your_device">"請記住連接您的設備 "</string>
+    <string name="sign_out">登出</string>
+    <string name="action_settings">设置</string>
+</resources>

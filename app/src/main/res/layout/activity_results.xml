@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Results"
+    tools:layout_editor_absoluteY="25dp"
+    android:background="#ccccb3">
+
+
+<TextView
+        android:id="@+id/CBut"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="18dp"
+        android:text="C Button Value:"
+        app:layout_constraintBottom_toTopOf="@+id/ZBut"
+        app:layout_constraintEnd_toStartOf="@+id/readcbt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/YAxis2" />
+
+    <TextView
+        android:id="@+id/ZBut"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="86dp"
+        android:layout_marginBottom="33dp"
+        android:text="Z Button Value:"
+        app:layout_constraintBottom_toTopOf="@+id/readtimestamp"
+        app:layout_constraintEnd_toStartOf="@+id/readzbt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CBut" />
+
+    <TextView
+        android:id="@+id/YAxis2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="82dp"
+        android:layout_marginBottom="16dp"
+        android:text="Y Axis Value:"
+        app:layout_constraintBottom_toTopOf="@+id/CBut"
+        app:layout_constraintEnd_toStartOf="@+id/readyax"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/XAxis" />
+
+    <TextView
+        android:id="@+id/readyax"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="16dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/readcbt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/YAxis2"
+        app:layout_constraintTop_toBottomOf="@+id/readxax" />
+
+    <TextView
+        android:id="@+id/readzbt"
+        android:layout_width="133dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="17dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/Legend"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ZBut"
+        app:layout_constraintTop_toBottomOf="@+id/readcbt" />
+
+    <TextView
+        android:id="@+id/readcbt"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="5dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/readzbt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/CBut"
+        app:layout_constraintTop_toBottomOf="@+id/readyax" />
+
+    <TextView
+        android:id="@+id/readtimestamp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="160dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Legred"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ZBut" />
+
+    <TextView
+        android:id="@+id/readx"
+        android:layout_width="121dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="22dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/ready"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/x"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ready"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="13dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/readxax"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/y"
+        app:layout_constraintTop_toBottomOf="@+id/readx" />
+
+    <TextView
+        android:id="@+id/readxax"
+        android:layout_width="124dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="25dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/readyax"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/XAxis"
+        app:layout_constraintTop_toBottomOf="@+id/ready" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="26dp"
+        android:onClick="clickHome1"
+        android:text="Home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Leggrn" />
+
+    <TextView
+        android:id="@+id/XAxis"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginBottom="21dp"
+        android:text="X Axis Value:"
+        app:layout_constraintBottom_toTopOf="@+id/YAxis2"
+        app:layout_constraintEnd_toStartOf="@+id/readxax"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/y" />
+
+    <TextView
+        android:id="@+id/y"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="21dp"
+        android:text="Y Value:"
+        app:layout_constraintBottom_toTopOf="@+id/XAxis"
+        app:layout_constraintEnd_toStartOf="@+id/ready"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/x" />
+
+    <TextView
+        android:id="@+id/x"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="87dp"
+        android:layout_marginBottom="18dp"
+        android:text="X Value:"
+        app:layout_constraintBottom_toTopOf="@+id/y"
+        app:layout_constraintEnd_toStartOf="@+id/readx"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name" />
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="24dp"
+        android:text="Filename"
+        app:layout_constraintBottom_toTopOf="@+id/x"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Legred"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginEnd="26dp"
+        android:text="RED: Does not function"
+        app:layout_constraintBottom_toTopOf="@+id/Legyelw"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/readtimestamp"
+        app:layout_constraintTop_toBottomOf="@+id/Legend" />
+
+    <TextView
+        android:id="@+id/Legyelw"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="YELLOW: Mostly functions"
+        app:layout_constraintBottom_toTopOf="@+id/Leggrn"
+        app:layout_constraintStart_toStartOf="@+id/Legred"
+        app:layout_constraintTop_toBottomOf="@+id/Legred" />
+
+    <TextView
+        android:id="@+id/Leggrn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="20dp"
+        android:text="GREEN: Functions"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="@+id/readcbt"
+        app:layout_constraintStart_toStartOf="@+id/Legyelw"
+        app:layout_constraintTop_toBottomOf="@+id/Legyelw" />
+
+    <TextView
+        android:id="@+id/Legend"
+        android:layout_width="160dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:text="Legend"
+        app:layout_constraintBottom_toTopOf="@+id/Legred"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.952"
+        app:layout_constraintStart_toEndOf="@+id/readtimestamp"
+        app:layout_constraintTop_toBottomOf="@+id/readzbt" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Results"
+    tools:layout_editor_absoluteY="25dp"
+    android:background="#ccccb3">
+
+    <TextView
+        android:id="@+id/readyax"
+        android:layout_width="0dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="22dp"
+        android:text="TextView"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toTopOf="@+id/readcbt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/readxax" />
+
+    <TextView
+        android:id="@+id/readzbt"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="23dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:text="TextView"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toTopOf="@+id/readtimestamp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/readcbt" />
+
+    <TextView
+        android:id="@+id/readcbt"
+        android:layout_width="552dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="13dp"
+        android:text="TextView"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toTopOf="@+id/readzbt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/readyax" />
+
+    <TextView
+        android:id="@+id/readtimestamp"
+        android:layout_width="0dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="39dp"
+        android:text="TextView"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/readzbt" />
+
+    <TextView
+        android:id="@+id/readx"
+        android:layout_width="0dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="17dp"
+        android:text="TextView"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toTopOf="@+id/ready"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ready"
+        android:layout_width="0dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="13dp"
+        android:text="TextView"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toTopOf="@+id/readxax"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/readx" />
+
+    <TextView
+        android:id="@+id/readxax"
+        android:layout_width="0dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="TextView"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toTopOf="@+id/readyax"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ready" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="27dp"
+        android:onClick="clickHome1"
+        android:text="Home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/readtimestamp" />
+</android.support.constraint.ConstraintLayout>
